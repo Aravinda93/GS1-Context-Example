@@ -559,14 +559,7 @@
       "queryName": "epcis:queryName",
       "resultsBody": "epcis:resultsBody",
       "eventList": {
-        "@id": "epcis:eventList",
-        "@context": {
-          "certificationInfo": {
-            "@id": "epcis:certificationInfo",
-            "@type": "@id",
-            "@container": "@set"
-          }
-        }
+        "@id": "epcis:eventList"
       },
       "children": {
         "@id": "epcis:children",
