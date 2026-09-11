@@ -1,0 +1,27 @@
+{
+  "@context": [
+    "<REPLACE WITH THE CONTEXT URL BEING TESTED>",
+    {
+      "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#"
+    }
+  ],
+  "type": "EPCISDocument",
+  "schemaVersion": "2.0",
+  "creationDate": "2025-06-22T11:30:00+01:00",
+  "epcisBody": {
+    "eventList": [
+      {
+        "type": "ObjectEvent",
+        "eventTime": "2025-06-22T11:30:00+01:00",
+        "eventTimeZoneOffset": "+01:00",
+        "action": "OBSERVE",
+        "epcList": [
+          "https://id.gs1.org/01/09506000134369/21/A1"
+        ],
+        "readPoint": {
+          "id": "geo:22.300,-118.44"
+        }
+      }
+    ]
+  }
+}
