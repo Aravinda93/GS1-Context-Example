@@ -1,0 +1,95 @@
+{
+    "objectIdentifierSyntax": "WebURI",
+    "locationPartyIdentifierSyntax": "WebURI",
+    "dlURL": "https://id.gs1.org",
+    "seed": 1791297543436,
+    "eventCount": 1,
+    "eventTime": {
+        "timeSelector": "SpecificTime",
+        "specificTime": "2026-09-22T07:30",
+        "fromTime": "2026-10-05T16:39:03.000",
+        "toTime": "2026-10-06T16:39:03.000",
+        "timeZoneOffset": "+02:00"
+    },
+    "parentIdentifier": [],
+    "instanceIdentifier": [],
+    "classIdentifier": [
+        {
+            "identifierType": "lgtin",
+            "quantityType": "Variable Measure Quantity",
+            "uom": "KGM",
+            "serialType": "none",
+            "lgtin": "09521234000099",
+            "serialNumber": "FABRIC-2609",
+            "quantity": 500,
+            "ID": 1
+        }
+    ],
+    "outputInstanceIdentifier": [],
+    "outputClassIdentifier": [
+        {
+            "identifierType": "lgtin",
+            "quantityType": "Variable Measure Quantity",
+            "uom": "KGM",
+            "quantity": 425,
+            "serialType": "none",
+            "lgtin": "09521234000105",
+            "serialNumber": "PANELS-2609",
+            "ID": 1
+        },
+        {
+            "identifierType": "lgtin",
+            "quantityType": "Variable Measure Quantity",
+            "uom": "KGM",
+            "serialType": "none",
+            "lgtin": "09521234000112",
+            "serialNumber": "OFFCUT-2609",
+            "quantity": 75,
+            "ID": 2
+        }
+    ],
+    "readPoint": {
+        "type": "SGLN",
+        "gln": "9521234000020",
+        "extension": "1"
+    },
+    "bizLocation": {
+        "type": "SGLN",
+        "gln": "9521234000020"
+    },
+    "persistentDispositionList": [],
+    "bizTransactions": [],
+    "sources": [],
+    "destinations": [],
+    "sensorElementList": [],
+    "certificationInfo": [
+        {
+            "extensionID": 0,
+            "prefix": "",
+            "contextURL": "",
+            "children": []
+        }
+    ],
+    "userExtensions": [],
+    "ilmd": [],
+    "errorDeclaration": {
+        "declarationTime": {
+            "timeSelector": "SpecificTime",
+            "timeZoneOffset": "+02:00",
+            "specificTime": "2026-10-06T16:39:03.000",
+            "fromTime": "2026-10-05T16:39:03.000",
+            "toTime": "2026-10-06T16:39:03.000"
+        },
+        "correctiveIds": [],
+        "extensions": [],
+        "declarationReason": "DID_NOT_OCCUR"
+    },
+    "eventType": "TransformationEvent",
+    "ordinaryEvent": true,
+    "eventID": true,
+    "recordTimeOption": "No",
+    "businessStep": "COMMISSIONING",
+    "disposition": "ACTIVE",
+    "eventIdType": "UUID",
+    "hashAlgorithm": "sha-256"
+}
