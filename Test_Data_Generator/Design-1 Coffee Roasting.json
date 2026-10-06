@@ -1,85 +1,227 @@
 {
-    "objectIdentifierSyntax": "WebURI",
-    "locationPartyIdentifierSyntax": "WebURI",
-    "dlURL": "https://id.gs1.org",
-    "seed": 1791297543436,
-    "eventCount": 1,
-    "eventTime": {
-        "timeSelector": "SpecificTime",
-        "specificTime": "2026-09-15T08:00",
-        "fromTime": "2026-10-05T16:39:03.000",
-        "toTime": "2026-10-06T16:39:03.000",
-        "timeZoneOffset": "+02:00"
-    },
-    "parentIdentifier": [],
-    "instanceIdentifier": [],
-    "classIdentifier": [
+    "eventNodeInfo": [
         {
-            "identifierType": "lgtin",
-            "quantityType": "Variable Measure Quantity",
-            "uom": "KGM",
-            "serialType": "none",
-            "lgtin": "09521234000013",
-            "quantity": 1000,
-            "serialNumber": "GREEN-2609",
-            "ID": 1
+            "eventId": 3,
+            "eventType": "TransformationEvent",
+            "eventInfo": {
+                "objectIdentifierSyntax": "WebURI",
+                "locationPartyIdentifierSyntax": "WebURI",
+                "dlURL": "https://id.gs1.org",
+                "seed": 1791318980696,
+                "eventCount": 1,
+                "eventTime": {
+                    "timeSelector": "SpecificTime",
+                    "specificTime": "2026-09-15T08:00",
+                    "fromTime": "2026-10-05T22:36:20.000",
+                    "toTime": "2026-10-06T22:36:20.000",
+                    "timeZoneOffset": "+02:00"
+                },
+                "parentIdentifier": [],
+                "instanceIdentifier": [],
+                "classIdentifier": [],
+                "outputInstanceIdentifier": [],
+                "outputClassIdentifier": [],
+                "readPoint": {
+                    "type": "SGLN",
+                    "gln": "9521234000013",
+                    "extension": "1"
+                },
+                "bizLocation": {
+                    "type": "SGLN",
+                    "gln": "9521234000013"
+                },
+                "persistentDispositionList": [],
+                "bizTransactions": [],
+                "sources": [],
+                "destinations": [],
+                "sensorElementList": [],
+                "certificationInfo": [
+                    {
+                        "extensionID": 0,
+                        "prefix": "",
+                        "contextURL": "",
+                        "children": []
+                    }
+                ],
+                "userExtensions": [],
+                "ilmd": [],
+                "errorDeclaration": {
+                    "declarationTime": {
+                        "timeSelector": "SpecificTime",
+                        "timeZoneOffset": "+02:00",
+                        "specificTime": "2026-10-06T22:36:20.000",
+                        "fromTime": "2026-10-05T22:36:20.000",
+                        "toTime": "2026-10-06T22:36:20.000"
+                    },
+                    "correctiveIds": [],
+                    "extensions": [],
+                    "declarationReason": "DID_NOT_OCCUR"
+                },
+                "eventType": "TransformationEvent",
+                "ordinaryEvent": true,
+                "eventID": true,
+                "recordTimeOption": "No",
+                "businessStep": "COMMISSIONING",
+                "disposition": "ACTIVE",
+                "eventIdType": "UUID",
+                "referencedIdentifier": [],
+                "parentReferencedIdentifier": {},
+                "outputReferencedIdentifier": []
+            }
         }
     ],
-    "outputInstanceIdentifier": [],
-    "outputClassIdentifier": [
+    "identifiersNodeInfo": [
         {
-            "identifierType": "lgtin",
-            "quantityType": "Variable Measure Quantity",
-            "uom": "KGM",
-            "serialType": "none",
-            "lgtin": "09521234000020",
-            "serialNumber": "ROAST-2609",
-            "quantity": 830,
-            "ID": 1
-        }
-    ],
-    "readPoint": {
-        "type": "SGLN",
-        "gln": "9521234000013",
-        "extension": "1"
-    },
-    "bizLocation": {
-        "type": "SGLN",
-        "gln": "9521234000013"
-    },
-    "persistentDispositionList": [],
-    "bizTransactions": [],
-    "sources": [],
-    "destinations": [],
-    "sensorElementList": [],
-    "certificationInfo": [
-        {
-            "extensionID": 0,
-            "prefix": "",
-            "contextURL": "",
-            "children": []
-        }
-    ],
-    "userExtensions": [],
-    "ilmd": [],
-    "errorDeclaration": {
-        "declarationTime": {
-            "timeSelector": "SpecificTime",
-            "timeZoneOffset": "+02:00",
-            "specificTime": "2026-10-06T16:39:03.000",
-            "fromTime": "2026-10-05T16:39:03.000",
-            "toTime": "2026-10-06T16:39:03.000"
+            "identifiersId": 1,
+            "identifierType": "Identifiers",
+            "objectIdentifierSyntax": "WebURI",
+            "classType": "lgtin",
+            "classData": {
+                "identifierType": "lgtin",
+                "quantityType": "Variable Measure Quantity",
+                "serialType": "none",
+                "lgtin": "09521234000013",
+                "serialNumber": "GREEN-2609",
+                "uom": "KGM",
+                "quantity": 1000
+            }
         },
-        "correctiveIds": [],
-        "extensions": [],
-        "declarationReason": "DID_NOT_OCCUR"
-    },
-    "eventType": "TransformationEvent",
-    "ordinaryEvent": true,
-    "eventID": true,
-    "recordTimeOption": "No",
-    "businessStep": "COMMISSIONING",
-    "disposition": "ACTIVE",
-    "eventIdType": "UUID",
-    "hashAlgorithm": "sha-256"
+        {
+            "identifiersId": 2,
+            "identifierType": "Identifiers",
+            "objectIdentifierSyntax": "WebURI",
+            "classType": "lgtin",
+            "classData": {
+                "identifierType": "lgtin",
+                "quantityType": "Variable Measure Quantity",
+                "serialType": "none",
+                "lgtin": "09521234000020",
+                "serialNumber": "ROAST-2609",
+                "uom": "KGM",
+                "quantity": 830
+            }
+        }
+    ],
+    "connectorsInfo": [
+        {
+            "ID": 1,
+            "name": "connector1",
+            "source": "1",
+            "target": "3",
+            "output_class": "output_1",
+            "input_class": "input_1",
+            "hideInheritParentCount": false,
+            "parentIdSrc": false,
+            "epcCount": 0,
+            "inheritParentCount": 0,
+            "classCount": 1,
+            "quantity": 1000
+        },
+        {
+            "ID": 2,
+            "name": "connector2",
+            "source": "2",
+            "target": "3",
+            "output_class": "output_1",
+            "input_class": "input_2",
+            "hideInheritParentCount": false,
+            "parentIdSrc": false,
+            "epcCount": 0,
+            "inheritParentCount": 0,
+            "classCount": 1,
+            "quantity": 830
+        }
+    ],
+    "drawflowInfo": {
+        "drawflow": {
+            "Home": {
+                "data": {
+                    "1": {
+                        "id": 1,
+                        "name": "Identifiers",
+                        "data": {
+                            "ID": 1,
+                            "eventType": "Identifiers"
+                        },
+                        "class": "Identifiers",
+                        "html": "Identifiers",
+                        "typenode": "vue",
+                        "inputs": {},
+                        "outputs": {
+                            "output_1": {
+                                "connections": [
+                                    {
+                                        "node": "3",
+                                        "output": "input_1"
+                                    }
+                                ]
+                            }
+                        },
+                        "pos_x": 97.8359375,
+                        "pos_y": 95
+                    },
+                    "2": {
+                        "id": 2,
+                        "name": "Identifiers",
+                        "data": {
+                            "ID": 2,
+                            "eventType": "Identifiers"
+                        },
+                        "class": "Identifiers",
+                        "html": "Identifiers",
+                        "typenode": "vue",
+                        "inputs": {},
+                        "outputs": {
+                            "output_1": {
+                                "connections": [
+                                    {
+                                        "node": "3",
+                                        "output": "input_2"
+                                    }
+                                ]
+                            }
+                        },
+                        "pos_x": 96,
+                        "pos_y": 303
+                    },
+                    "3": {
+                        "id": 3,
+                        "name": "Events",
+                        "data": {
+                            "ID": 3,
+                            "eventType": "TransformationEvent"
+                        },
+                        "class": "TransformationEvent",
+                        "html": "Events",
+                        "typenode": "vue",
+                        "inputs": {
+                            "input_1": {
+                                "connections": [
+                                    {
+                                        "node": "1",
+                                        "input": "output_1"
+                                    }
+                                ]
+                            },
+                            "input_2": {
+                                "connections": [
+                                    {
+                                        "node": "2",
+                                        "input": "output_1"
+                                    }
+                                ]
+                            }
+                        },
+                        "outputs": {
+                            "output_1": {
+                                "connections": []
+                            }
+                        },
+                        "pos_x": 423,
+                        "pos_y": 179
+                    }
+                }
+            }
+        }
+    }
 }
