@@ -1,0 +1,411 @@
+{
+    "eventNodeInfo": [
+        {
+            "eventId": 1,
+            "eventType": "TransformationEvent",
+            "eventInfo": {
+                "objectIdentifierSyntax": "WebURI",
+                "locationPartyIdentifierSyntax": "WebURI",
+                "dlURL": "https://id.gs1.org",
+                "seed": 1791298079086,
+                "eventCount": 1,
+                "eventTime": {
+                    "timeSelector": "SpecificTime",
+                    "specificTime": "2025-11-10T09:00",
+                    "fromTime": "2026-10-05T16:47:59.000",
+                    "toTime": "2026-10-06T16:47:59.000",
+                    "timeZoneOffset": "+01:00"
+                },
+                "parentIdentifier": [],
+                "instanceIdentifier": [],
+                "classIdentifier": [],
+                "outputInstanceIdentifier": [],
+                "outputClassIdentifier": [],
+                "readPoint": {
+                    "type": "SGLN",
+                    "gln": "9521234000037"
+                },
+                "bizLocation": {
+                    "type": "SGLN",
+                    "gln": "9521234000037"
+                },
+                "persistentDispositionList": [],
+                "bizTransactions": [],
+                "sources": [],
+                "destinations": [],
+                "sensorElementList": [],
+                "certificationInfo": [
+                    {
+                        "extensionID": 0,
+                        "prefix": "",
+                        "contextURL": "",
+                        "children": []
+                    }
+                ],
+                "userExtensions": [],
+                "ilmd": [],
+                "errorDeclaration": {
+                    "declarationTime": {
+                        "timeSelector": "SpecificTime",
+                        "timeZoneOffset": "+02:00",
+                        "specificTime": "2026-10-06T16:47:59.000",
+                        "fromTime": "2026-10-05T16:47:59.000",
+                        "toTime": "2026-10-06T16:47:59.000"
+                    },
+                    "correctiveIds": [],
+                    "extensions": [],
+                    "declarationReason": "DID_NOT_OCCUR"
+                },
+                "eventType": "TransformationEvent",
+                "ordinaryEvent": true,
+                "eventID": true,
+                "recordTimeOption": "No",
+                "businessStep": "COMMISSIONING",
+                "disposition": "ACTIVE",
+                "eventIdType": "UUID",
+                "hashAlgorithm": "sha-256",
+                "referencedIdentifier": [],
+                "parentReferencedIdentifier": {},
+                "outputReferencedIdentifier": [],
+                "name": "Olive oil production",
+                "description": "10,000 kg of olives produces 1,800 kg of oil"
+            }
+        },
+        {
+            "eventId": 3,
+            "eventType": "TransformationEvent",
+            "eventInfo": {
+                "objectIdentifierSyntax": "WebURI",
+                "locationPartyIdentifierSyntax": "WebURI",
+                "dlURL": "https://id.gs1.org",
+                "seed": 1791298212516,
+                "eventCount": 1,
+                "eventTime": {
+                    "timeSelector": "SpecificTime",
+                    "specificTime": "2025-12-02T14:00",
+                    "fromTime": "2026-10-05T16:50:12.000",
+                    "toTime": "2026-10-06T16:50:12.000",
+                    "timeZoneOffset": "+01:00"
+                },
+                "parentIdentifier": [],
+                "instanceIdentifier": [],
+                "classIdentifier": [],
+                "outputInstanceIdentifier": [],
+                "outputClassIdentifier": [],
+                "readPoint": {
+                    "type": "SGLN",
+                    "gln": "9521234000044",
+                    "extension": "1"
+                },
+                "bizLocation": {
+                    "type": "SGLN",
+                    "gln": "9521234000044"
+                },
+                "persistentDispositionList": [],
+                "bizTransactions": [],
+                "sources": [],
+                "destinations": [],
+                "sensorElementList": [],
+                "certificationInfo": [
+                    {
+                        "extensionID": 0,
+                        "prefix": "",
+                        "contextURL": "",
+                        "children": []
+                    }
+                ],
+                "userExtensions": [],
+                "ilmd": [],
+                "errorDeclaration": {
+                    "declarationTime": {
+                        "timeSelector": "SpecificTime",
+                        "timeZoneOffset": "+02:00",
+                        "specificTime": "2026-10-06T16:50:12.000",
+                        "fromTime": "2026-10-05T16:50:12.000",
+                        "toTime": "2026-10-06T16:50:12.000"
+                    },
+                    "correctiveIds": [],
+                    "extensions": [],
+                    "declarationReason": "DID_NOT_OCCUR"
+                },
+                "name": "Bottling of the Olive oil",
+                "description": "1,800 kg of oil go in and 2,000 kg come out",
+                "eventType": "TransformationEvent",
+                "ordinaryEvent": true,
+                "eventID": true,
+                "recordTimeOption": "No",
+                "businessStep": "COMMISSIONING",
+                "disposition": "ACTIVE",
+                "eventIdType": "UUID",
+                "referencedIdentifier": [],
+                "parentReferencedIdentifier": {},
+                "outputReferencedIdentifier": []
+            }
+        }
+    ],
+    "identifiersNodeInfo": [
+        {
+            "identifiersId": 2,
+            "identifierType": "Identifiers",
+            "objectIdentifierSyntax": "WebURI",
+            "classType": "lgtin",
+            "classData": {
+                "name": "Olives input quantity",
+                "identifierType": "lgtin",
+                "quantityType": "Variable Measure Quantity",
+                "serialType": "none",
+                "lgtin": "09521234000037",
+                "serialNumber": "OLIVES-2511",
+                "uom": "KGM",
+                "quantity": 10000
+            }
+        },
+        {
+            "identifiersId": 4,
+            "identifierType": "Identifiers",
+            "objectIdentifierSyntax": "WebURI",
+            "classType": "lgtin",
+            "classData": {
+                "name": "Olives output quantity",
+                "identifierType": "lgtin",
+                "quantityType": "Variable Measure Quantity",
+                "serialType": "none",
+                "lgtin": "09521234000044",
+                "serialNumber": "EVOO-2511",
+                "uom": "KGM",
+                "quantity": 1800
+            }
+        },
+        {
+            "identifiersId": 5,
+            "identifierType": "Identifiers",
+            "objectIdentifierSyntax": "WebURI",
+            "classType": "lgtin",
+            "classData": {
+                "name": "Olive oil packaging output quantity",
+                "identifierType": "lgtin",
+                "quantityType": "Variable Measure Quantity",
+                "serialType": "none",
+                "lgtin": "09521234000051",
+                "serialNumber": "BLEND-2512",
+                "uom": "KGM",
+                "quantity": 2000
+            }
+        }
+    ],
+    "connectorsInfo": [
+        {
+            "ID": 1,
+            "name": "connector1",
+            "source": "2",
+            "target": "1",
+            "output_class": "output_1",
+            "input_class": "input_1",
+            "hideInheritParentCount": false,
+            "parentIdSrc": false,
+            "epcCount": 0,
+            "inheritParentCount": 0,
+            "classCount": 1,
+            "quantity": 10000
+        },
+        {
+            "ID": 2,
+            "name": "connector2",
+            "source": "4",
+            "target": "1",
+            "output_class": "output_1",
+            "input_class": "input_2",
+            "hideInheritParentCount": false,
+            "parentIdSrc": false,
+            "epcCount": 0,
+            "inheritParentCount": 0,
+            "classCount": 1,
+            "quantity": 1800
+        },
+        {
+            "ID": 3,
+            "name": "connector3",
+            "source": "1",
+            "target": "3",
+            "output_class": "output_1",
+            "input_class": "input_1",
+            "hideInheritParentCount": true,
+            "parentIdSrc": false,
+            "epcCount": 0,
+            "inheritParentCount": 0,
+            "classCount": 1,
+            "quantity": 1800
+        },
+        {
+            "ID": 4,
+            "name": "connector4",
+            "source": "5",
+            "target": "3",
+            "output_class": "output_1",
+            "input_class": "input_2",
+            "hideInheritParentCount": false,
+            "parentIdSrc": false,
+            "epcCount": 0,
+            "inheritParentCount": 0,
+            "classCount": 1,
+            "quantity": 2000
+        }
+    ],
+    "drawflowInfo": {
+        "drawflow": {
+            "Home": {
+                "data": {
+                    "1": {
+                        "id": 1,
+                        "name": "Events",
+                        "data": {
+                            "ID": 1,
+                            "eventType": "TransformationEvent"
+                        },
+                        "class": "TransformationEvent",
+                        "html": "Events",
+                        "typenode": "vue",
+                        "inputs": {
+                            "input_1": {
+                                "connections": [
+                                    {
+                                        "node": "2",
+                                        "input": "output_1"
+                                    }
+                                ]
+                            },
+                            "input_2": {
+                                "connections": [
+                                    {
+                                        "node": "4",
+                                        "input": "output_1"
+                                    }
+                                ]
+                            }
+                        },
+                        "outputs": {
+                            "output_1": {
+                                "connections": [
+                                    {
+                                        "node": "3",
+                                        "output": "input_1"
+                                    }
+                                ]
+                            }
+                        },
+                        "pos_x": 319,
+                        "pos_y": 187
+                    },
+                    "2": {
+                        "id": 2,
+                        "name": "Identifiers",
+                        "data": {
+                            "ID": 2,
+                            "eventType": "Identifiers"
+                        },
+                        "class": "Identifiers",
+                        "html": "Identifiers",
+                        "typenode": "vue",
+                        "inputs": {},
+                        "outputs": {
+                            "output_1": {
+                                "connections": [
+                                    {
+                                        "node": "1",
+                                        "output": "input_1"
+                                    }
+                                ]
+                            }
+                        },
+                        "pos_x": -18,
+                        "pos_y": 101
+                    },
+                    "3": {
+                        "id": 3,
+                        "name": "Events",
+                        "data": {
+                            "ID": 3,
+                            "eventType": "TransformationEvent"
+                        },
+                        "class": "TransformationEvent",
+                        "html": "Events",
+                        "typenode": "vue",
+                        "inputs": {
+                            "input_1": {
+                                "connections": [
+                                    {
+                                        "node": "1",
+                                        "input": "output_1"
+                                    }
+                                ]
+                            },
+                            "input_2": {
+                                "connections": [
+                                    {
+                                        "node": "5",
+                                        "input": "output_1"
+                                    }
+                                ]
+                            }
+                        },
+                        "outputs": {
+                            "output_1": {
+                                "connections": []
+                            }
+                        },
+                        "pos_x": 628,
+                        "pos_y": 182
+                    },
+                    "4": {
+                        "id": 4,
+                        "name": "Identifiers",
+                        "data": {
+                            "ID": 4,
+                            "eventType": "Identifiers"
+                        },
+                        "class": "Identifiers",
+                        "html": "Identifiers",
+                        "typenode": "vue",
+                        "inputs": {},
+                        "outputs": {
+                            "output_1": {
+                                "connections": [
+                                    {
+                                        "node": "1",
+                                        "output": "input_2"
+                                    }
+                                ]
+                            }
+                        },
+                        "pos_x": -31,
+                        "pos_y": 277
+                    },
+                    "5": {
+                        "id": 5,
+                        "name": "Identifiers",
+                        "data": {
+                            "ID": 5,
+                            "eventType": "Identifiers"
+                        },
+                        "class": "Identifiers",
+                        "html": "Identifiers",
+                        "typenode": "vue",
+                        "inputs": {},
+                        "outputs": {
+                            "output_1": {
+                                "connections": [
+                                    {
+                                        "node": "3",
+                                        "output": "input_2"
+                                    }
+                                ]
+                            }
+                        },
+                        "pos_x": 310,
+                        "pos_y": 380
+                    }
+                }
+            }
+        }
+    }
+}
